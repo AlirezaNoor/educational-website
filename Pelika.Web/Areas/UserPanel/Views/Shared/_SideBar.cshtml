@@ -1,0 +1,75 @@
+﻿@using Pelika.Core.Convertors
+@using Pelika.Core.DTOs
+@using Pelika.Core.Services.Interfaces
+@inject IUserService _userService
+@inject IPermissionService _permissionService
+
+@{
+    SideBarUserPanelViewModel user = _userService.GetSideBarUserPanelData(User.Identity.Name);
+}
+
+<div class="col-md-3 col-sm-4 col-xs-12">
+    <aside>
+
+        <div class="avatar-layer">
+            <div class="img-layer">
+                <a href="/UserPanel/EditProfile" class="change-image"><i class="zmdi zmdi-edit"></i></a>
+                <img src="/UserAvatar/@user.ImageName">
+            </div>
+            <div class="detail">
+                <span> @user.UserName </span>
+                <span> عضویت :@user.RegisterDate.ToShamsi() </span>
+            </div>
+        </div>
+
+        <section>
+            <header><h3> میز کار </h3></header>
+            <div class="inner">
+                <ul>
+                    @if (_permissionService.CheckPermission(1, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(2, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(3, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(4, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(5, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(6, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(7, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(8, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    else if (_permissionService.CheckPermission(9, User.Identity.Name))
+                    {
+                        <li><a href="/Admin"> پنل ادمین </a></li>
+                    }
+                    <li><a href="/UserPanel"> مشاهده حساب کابری </a></li>
+                    <li><a href="/UserPanel/EditProfile"> ویرایش حساب کابری </a></li>
+                    <li><a href="/UserPanel/ChangePassword"> تغییر رمز عبور </a></li>
+                    <li><a href="/UserPanel/Wallet"> کیف پول شما </a></li>
+                    <li><a href="/UserPanel/MyOrders"> فاکتور ها </a></li>
+                    <li><a href="/Logout"> خروج از حساب کاربری </a></li>
+                </ul>
+            </div>
+        </section>
+    </aside>
+</div>

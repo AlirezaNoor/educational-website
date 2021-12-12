@@ -1,0 +1,14 @@
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.Core.deps.json
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.Core.dll
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.Core.pdb
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.AssemblyInfoInputs.cache
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.AssemblyInfo.cs
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.csproj.CoreCompileInputs.cache
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.dll
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.pdb
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.csproj.AssemblyReference.cache
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.Core.runtimeconfig.json
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.Core.runtimeconfig.dev.json
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.DataLayer.dll
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\bin\Debug\netcoreapp2.1\Pelika.DataLayer.pdb
+D:\asp.net_code_train\pelika\Pelika\Pelika.Core\obj\Debug\netcoreapp2.1\Pelika.Core.csproj.CopyComplete

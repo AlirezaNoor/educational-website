@@ -1,0 +1,48 @@
+﻿@model Pelika.DataLayer.Entities.Contact.ContactUs
+@{
+    ViewData["Title"] = "تماس با ما";
+}
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">پلیکا</a></li>
+            <li class="breadcrumb-item active" aria-current="page">تماس با ما</li>
+        </ul>
+    </nav>
+</div>
+
+<main class="client-page">
+    <div class="container-content">
+
+        <header><h2> تماس با ما </h2></header>
+
+        <div class="form-layer">
+
+            <form  asp-action="ContactMail" method="post" >
+
+                <div class="input-group">
+                    <span class="input-group-addon" id="email-address"><i class="zmdi zmdi-email"></i></span>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="ایمیل" aria-describedby="email">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon" id="username"><i class="zmdi zmdi-account"></i></span>
+                    <input asp-for="Name" type="text" class="form-control" placeholder="نام و نام خانوادگی" aria-describedby="name">
+                </div>
+                
+
+                    <textarea asp-for="Massage" class="form-control" placeholder="متن نامه "></textarea>
+               
+
+
+                <div asp-validation-summary="All" class="text-danger">
+
+                </div>
+                <button  class="btn btn-dark"> ارسال </button>
+
+            </form>
+        </div>
+
+    </div>
+</main>
+
+
