@@ -1,33 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.Core\\Pelika.Core.csproj": {}
+    "G:\\Megalearn\\educational-website\\Pelika.Core\\Pelika.Core.csproj": {}
   },
   "projects": {
-    "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.Core\\Pelika.Core.csproj": {
+    "G:\\Megalearn\\educational-website\\Pelika.Core\\Pelika.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.Core\\Pelika.Core.csproj",
+        "projectUniqueName": "G:\\Megalearn\\educational-website\\Pelika.Core\\Pelika.Core.csproj",
         "projectName": "Pelika.Core",
-        "projectPath": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.Core\\Pelika.Core.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.Core\\obj\\",
+        "projectPath": "G:\\Megalearn\\educational-website\\Pelika.Core\\Pelika.Core.csproj",
+        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
+        "outputPath": "G:\\Megalearn\\educational-website\\Pelika.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp5.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\Pelika.DataLayer.csproj": {
-                "projectPath": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\Pelika.DataLayer.csproj"
+              "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\Pelika.DataLayer.csproj": {
+                "projectPath": "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\Pelika.DataLayer.csproj"
               }
             }
           }
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "CoreCompat.System.Drawing.v2": {
+            "CoreCompat.System.Drawing": {
               "target": "Package",
-              "version": "[5.2.0-preview1-r131, )"
+              "version": "[1.0.0-beta006, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor": {
               "target": "Package",
@@ -56,27 +56,27 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -85,7 +85,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -94,31 +95,31 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\Pelika.DataLayer.csproj": {
+    "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\Pelika.DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\Pelika.DataLayer.csproj",
+        "projectUniqueName": "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\Pelika.DataLayer.csproj",
         "projectName": "Pelika.DataLayer",
-        "projectPath": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\Pelika.DataLayer.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "H:\\web\\asp.net_code_train\\pelika\\Pelika\\Pelika.DataLayer\\obj\\",
+        "projectPath": "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\Pelika.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\Alireza\\.nuget\\packages\\",
+        "outputPath": "G:\\Megalearn\\educational-website\\Pelika.DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Alireza\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp5.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "netcoreapp5.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -129,32 +130,32 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "netcoreapp5.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.10, )"
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -163,7 +164,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -172,7 +174,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

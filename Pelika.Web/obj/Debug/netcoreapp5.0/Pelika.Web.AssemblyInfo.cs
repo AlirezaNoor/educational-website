@@ -10,11 +10,10 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap4")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Pelika.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1ffcdb8e4e70aaea3f65100a0e18a4cd529c90c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Pelika.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Pelika.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
